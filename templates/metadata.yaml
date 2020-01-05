@@ -1,0 +1,13 @@
+network:
+  version: 2
+  ethernets:
+    ens192:
+      dhcp4: false
+      addresses:
+        - 10.0.0.200/24
+      gateway4: 10.0.0.1
+      nameservers:
+        addresses:
+          - 192.168.1.5
+local-hostname: ubuntu-01
+instance-id: ubuntu01

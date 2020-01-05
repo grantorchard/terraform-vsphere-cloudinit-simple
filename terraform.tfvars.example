@@ -1,0 +1,8 @@
+datacenter_name     = "Core"
+cluster_name        = "Tenant"
+datastore_name      = "hl-core-ds01"
+vm_network_name     = "Common"
+vsphere_user        = "administrator@vsphere.local"
+vsphere_password    = "VMware123!"
+vsphere_server      = "hlcorevc01.humblelab.com"
+template_name       = "ubuntu-18.04-packer"
