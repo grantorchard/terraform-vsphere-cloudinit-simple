@@ -60,7 +60,7 @@ variable hostname {
 }
 
 variable nameservers {
-  type = list
+  type    = list
   default = []
 }
 
